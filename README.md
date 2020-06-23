@@ -1,5 +1,5 @@
 # LLVM_Compiler
-Compiler using LLVM
+Mini compiler to generate an intermediate code
 
 Building process
 -----------------
@@ -51,3 +51,7 @@ Flex tool
 ---------
 file.l -> FLEX -> lex.yy.c -> C COMPILER -> a.out -> sequence of tokens
 
+- lex test.l
+- gcc lex.yy.c -lfl
+- ./a.out 
+- give inputs
